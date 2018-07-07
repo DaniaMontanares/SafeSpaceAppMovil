@@ -9,14 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".vistaprincipal">
+        <activity android:name=".Actividades.vistaprincipal">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".vistahistorias"></activity>
+        <activity
+            android:name=".Actividades.VistaHistorias"
+            android:label="@string/title_activity_vista_principal2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Actividades.Historia" />
+        <activity android:name=".Actividades.TestPsicologicos" />
+        <activity android:name=".Actividades.Tableros" />
+        <activity android:name=".Actividades.FengChui" />
+        <activity android:name=".Actividades.RecetasSaludables" />
+        <activity android:name=".Actividades.PlantasMedicinales"></activity>
     </application>
 
 </manifest>

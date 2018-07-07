@@ -1,13 +1,15 @@
-package com.example.dania.safespaceapp;
+package com.example.dania.safespaceapp.Actividades;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class vistahistorias extends AppCompatActivity {
+import com.example.dania.safespaceapp.R;
+
+public class Tableros extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vistahistorias);
+        setContentView(R.layout.activity_tablero);
     }
 }

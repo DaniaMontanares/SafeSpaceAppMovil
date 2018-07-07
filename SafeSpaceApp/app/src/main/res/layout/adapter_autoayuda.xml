@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/parent_layout_autoayuda"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_autoayuda"
+                android:layout_width="124dp"
+                android:layout_height="130dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@drawable/party_gurl" />
+
+            <ImageView
+                android:id="@+id/imagen_title_autoayuda"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                app:srcCompat="@drawable/texto" />
+
+            <TextView
+                android:id="@+id/text_title_autoayuda"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/imagen_title_autoayuda"
+                android:text="TextView"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/text_content_autoayuda"
+                android:layout_width="220dp"
+                android:layout_height="84dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="36dp"
+                android:text="TextView" />
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
